@@ -62,12 +62,12 @@ QUIZ_DATA = [
      "answer": 1, "explanation": "Kulit buah pisang berasal dari tumbuhan sehingga termasuk sampah organik."},
     
     {"question": "Apa yang sebaiknya dilakukan sebelum membuang sampah?",
-     "options": ["Dibakar semua", "Dipilah berdasarkan jenisnya", "Ditimbun di tanah", "Dibuang ke sungai"],
-     "answer": 1, "explanation": "Memilah sampah memudahkan proses daur ulang dan pengelolaan."},
+     "options": ["Dipilah berdasarkan jenisnya", "Dibakar semua", "Ditimbun di tanah", "Dibuang ke sungai"],
+     "answer": 0, "explanation": "Memilah sampah memudahkan proses daur ulang dan pengelolaan."},
     
     {"question": "Sampah anorganik tidak mudah terurai. Contohnya adalah:",
-     "options": ["Daun kering", "Botol plastik", "Kulit jeruk", "Nasi sisa"],
-     "answer": 1, "explanation": "Botol plastik terbuat dari bahan kimia yang tidak mudah terurai."},
+     "options": ["Daun kering", "Kulit jeruk", "Botol plastik", "Nasi sisa"],
+     "answer": 2, "explanation": "Botol plastik terbuat dari bahan kimia yang tidak mudah terurai."},
     
     {"question": "Mengapa kita harus memilah sampah organik dan anorganik?",
      "options": ["Supaya terlihat rapi", "Untuk memudahkan daur ulang", "Karena warnanya berbeda", "Tidak ada alasan"],
