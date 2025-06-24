@@ -48,7 +48,7 @@ def load_image_dataset():
         'kategori': ['Organik', 'Organik', 'Anorganik', 'Anorganik', 'Organik']
     }
     try:
-        df = pd.read_csv('di.csv', delimiter=';')
+        df = pd.read_csv('di.csv', delimiter=',')
         df['kategori'] = df['kategori'].str.capitalize()
     except FileNotFoundError:
         df = pd.DataFrame(fallback_data)
