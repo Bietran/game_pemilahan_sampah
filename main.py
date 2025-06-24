@@ -44,7 +44,7 @@ class GameState:
 def load_image_dataset():
     fallback_data = {
         'nama': ['Daun', 'Kulit Pisang', 'Botol Plastik', 'Kaleng', 'Sisa Makanan'],
-        'file': ['daun.jpeg', 'kulit_pisang.jpeg', 'botol_plastik.jpeg', 'kaleng_BG.PNG', 'sisa_makanan.jpeg'],
+        'file': ['daun.jpeg', 'kulit_pisang.jpeg', 'botol_plastik.jpeg', 'kaleng_BG.png', 'sisa_makanan.jpeg'],
         'kategori': ['Organik', 'Organik', 'Anorganik', 'Anorganik', 'Organik']
     }
     try:
