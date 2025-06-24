@@ -44,11 +44,11 @@ class GameState:
 def load_image_dataset():
     fallback_data = {
         'nama': ['Daun', 'Kulit Pisang', 'Botol Plastik', 'Kaleng', 'Sisa Makanan'],
-        'file': ['daun.jpeg', 'kulit_pisang.jpeg', 'botol_plastik.jpeg', 'kaleng_BG.png', 'sisa_makanan.jpeg'],
+        'file': ['daun.jpeg', 'kulit_pisang.jpeg', 'botol_plastik.jpeg', 'p.png', 'sisa_makanan.jpeg'],
         'kategori': ['Organik', 'Organik', 'Anorganik', 'Anorganik', 'Organik']
     }
     try:
-        df = pd.read_csv('dataset_images.csv', delimiter=';')
+        df = pd.read_csv('di.csv', delimiter=';')
         df['kategori'] = df['kategori'].str.capitalize()
     except FileNotFoundError:
         df = pd.DataFrame(fallback_data)
